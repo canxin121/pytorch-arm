@@ -38,8 +38,8 @@ jobs:
       max-parallel: 6
       fail-fast: true
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
@@ -106,8 +106,8 @@ jobs:
       max-parallel: 6
       fail-fast: false
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
@@ -173,8 +173,8 @@ jobs:
       max-parallel: 6
       fail-fast: false
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
@@ -240,8 +240,8 @@ jobs:
       max-parallel: 6
       fail-fast: false
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
@@ -307,8 +307,8 @@ jobs:
       max-parallel: 6
       fail-fast: false
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
@@ -374,8 +374,8 @@ jobs:
       max-parallel: 6
       fail-fast: false
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
@@ -441,8 +441,8 @@ jobs:
       max-parallel: 6
       fail-fast: false
       matrix:
-        platform: [ linux/arm/v7, linux/arm64/v8 ]
-        pythonlabel: [ 3.10-buster, 3.11-buster, 3.9-buster ]
+        platform: [ linux/arm/v7 ]
+        pythonlabel: [ 3.10-buster ]
 
     steps:
       - uses: actions/checkout@v2
